@@ -57,7 +57,7 @@ include "../user/connection.php";
             </div>
 
             <div class="control-group">
-              <label class="control-label">Select unit</label>
+              <label class="control-label">Select size</label>
               <div class="controls">
                 <select name="unit" class="span11">
                 <?php
@@ -74,9 +74,9 @@ include "../user/connection.php";
 
             
             <div class="control-group">
-              <label class="control-label">Packing size :</label>
+              <label class="control-label">Packing Size :</label>
               <div class="controls">
-                <input type="text" class="span11" placeholder="Packing size" name="packing_size"/>
+                <input type="text" class="span11" placeholder="Quantity" name="packing_size"/>
               </div>
             </div>
             
@@ -102,8 +102,8 @@ include "../user/connection.php";
                   <th>id</th>
                   <th>Company Name</th>
                   <th>Product Name</th>
-                  <th>Unit</th>
-                  <th>Packing size</th>
+                  <th>Size</th>
+                  <th>Packing Size</th>
                   <th>Edit</th>
                   <th>Delete</th>
                 </tr>

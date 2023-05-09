@@ -17,6 +17,7 @@ if(!isset($_SESSION["admin"])){
   </script>
   <?php
 }
+?>
 <?php
 include "../user/connection.php";
 include "add_new_product.php";

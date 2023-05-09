@@ -48,10 +48,17 @@
             <a href="index.html"><i class="icon icon-home"></i><span>Dashboard</span></a>
         </li>
         <li>
+            <a href="add_new_user.php"><i class="icon icon-user"></i><span>Add new user</span></a>
+        </li>
+        <li>
+            <a href="add_new_company.php"><i class="icon icon-user"></i><span>Seller Details</span></a>
+        </li>
+        <li>
             <a href="add_new_product.php"><i class="icon icon-user"></i><span>Add new product</span></a>
         </li>
         <li>
-            <a href="purchase_master.php"><i class="icon icon-user"></i><span>Purchase master</span></a>
+            <a href="purchase_master.php"><i class="icon icon-user"></i><span>Purchase master</span>
+        </a>  
         </li>
         <li>
             <a href="stock_master.php"><i class="icon icon-user"></i><span>Stock master</span></a>
@@ -62,12 +69,7 @@
         <li>
             <a href="view_bills.php"><i class="icon icon-user"></i><span>View Bills</span></a>
         </li>
-        <li>
-            <a href="add_new_user.php"><i class="icon icon-user"></i><span>Add new user</span></a>
-        </li>
-        <li>
-            <a href="add_new_company.php"><i class="icon icon-user"></i><span>Add new company</span></a>
-        </li>
+        
         <li>
             <a href="return_product_list.php"><i class="icon icon-user"></i><span>Return products list</span></a>
         </li>
@@ -79,7 +81,6 @@
                 <li><a href="view_bills.php">Sales Report</a></li>
                 <li><a href="stock_master.php">Stock Report</a></li>
                 <li><a href="return_product_list.php">Return Products Report</a></li>
-                <li><a href="expiry_report.php">Expiry Report</a></li>
            </ul>
         </li> 
 

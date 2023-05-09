@@ -24,10 +24,10 @@ include "../user/connection.php";?>
 
     <div class="row-fluid" style="background-color: white; min-height: 1000px; padding:10px;display: flex;">
         
-        <div class="card" style="width:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #FF8C00;padding-top:100px;">
+        <div class="card" style="width:40%;height:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #E8FBE1;padding-top:50px;padding-bottom:50px">
             <div class="card-body">
-                <h1 class="card-title text-center">Total No of Orders</h1>
-                <p style="font-size:100px;margin-top:100px;text-align:center;">
+                <h2 class="card-title text-center">Total No of Orders</h2>
+                <p style="font-size:45px;margin-top:100px;text-align:center;">
                     <?php
                     $count=0;
                     $res=mysqli_query($link,"select * from billing_header");
@@ -37,10 +37,10 @@ include "../user/connection.php";?>
                 </p>
             </div>
         </div>
-        <div class="card" style="width:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #32CD32;padding-top:100px;">
+        <div class="card" style="width:40%;height:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #ECE3FC;padding-top:50px;padding-bottom:50px">
             <div class="card-body">
-                <h1 class="card-title text-center" style="text-align:center;">No of Products</h1>
-                <p style="font-size:100px;margin-top:100px;text-align:center;">
+                <h2 class="card-title text-center" style="text-align:center;">No of Products</h2>
+                <p style="font-size:45px;margin-top:100px;text-align:center;">
                     <?php
                     $count=0;
                     $res=mysqli_query($link,"select * from products");
@@ -50,10 +50,10 @@ include "../user/connection.php";?>
                 </p>
             </div>
         </div>
-        <div class="card" style="width:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #4682B4;padding-top:100px;">
+        <div class="card" style="width:40%;height:40%;border-style:solid;border-style:none;border-radius:10px;float:left;background-color: #FCEBF6;padding-top:50px;padding-bottom:50px">
             <div class="card-body">
-                <h1 class="card-title text-center">Total Company</h1>
-                <p style="font-size:100px;margin-top:100px;text-align:center;">
+                <h2 class="card-title text-center">Total Company</h2>
+                <p style="font-size:45px;margin-top:100px;text-align:center;">
                     <?php
                     $count=0;
                     $res=mysqli_query($link,"select * from company_name");

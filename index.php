@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="user/css/matrix-login.css"/>
 </head>
 <body style="background-image: url('./asserts/second.png');">
-<div id="wrapper" style="text-align:center;margin-left:420px;">
-<div style="display:inline-block;vertical-align:top;border-style:solid;border-width:1px;border-color:green;border-radius:10px;height:70px;width:200px;font-size:large;color:white;padding-top:40px;background-color:#28b779;cursor:pointer" onclick="window.location='user/index.php'">USER PANEL</div>
-<div style="display:inline-block;vertical-align:top;border-style:solid;border-width:1px;border-color:green;border-radius:10px;height:70px;width:200px;font-size:large;color:white;padding-top:40px;background-color:#ffb840;cursor:pointer" onclick="window.location='admin/index.php'">ADMIN PANEL</div>   
+<div id="wrapper" style="text-align:center;margin-left:420px;padding-right:150px;">
+<div style="display:inline-block;vertical-align:top;border-style:solid;border-width:1px;border-color:green;border-radius:10px;height:40px;width:200px;font-size:large;color:black;padding-top:20px;padding-right:10px;background-color:#ffff;cursor:pointer; align-items: center;border:2px solid grey;box-shadow: 5px 10px;" onclick="window.location='user/index.php'"><b>USER PANEL</b></div><b style="color:grey">....</b>
+<div style="display:inline-block;vertical-align:top;border-style:solid;border-width:1px;border-color:green;border-radius:10px;height:40px;width:200px;font-size:large;color:black;padding-top:20px;padding-right:10px;background-color:#ffff;cursor:pointer; align-items: center;border:2px solid grey;box-shadow: 5px 10px;" onclick="window.location='admin/index.php'"><b>ADMIN PANEL</b></div>   
 </div>
 
 </body>
